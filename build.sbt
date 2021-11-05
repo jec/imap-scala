@@ -1,7 +1,7 @@
-scalaVersion := "2.13.6"
+scalaVersion := "2.13.7"
 
 libraryDependencies ++= {
-  val akkaVersion = "2.6.16"
+  val akkaVersion = "2.6.17"
 
   Seq(
     "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
